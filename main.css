@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Roboto+Condensed&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #723d46;
+    padding: 16px 0;
+}
+
+header h1,
+.container h2 {
+    font-style: italic;
+}
+
+header h1,
+.container h2,
+.more-content,
+footer .container p {
+    font-family: 'Playfair Display', serif;
+}
+
+header h1 {
+    color: #f0ffce;
+    font-weight: normal;
+    font-size: 36px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.container ul li {
+    display: inline-block;
+    color: #f0ffce;
+}
+
+.container ul li a {
+    text-decoration: none;
+    color: #f0ffce;
+    font-size: 18px;
+    margin-right: 8px;
+    transition: 0.3s ease all;
+}
+
+.container ul li a:not(:hover) {
+    opacity: 0.7;
+}
+
+hr {
+    margin: 16px auto;
+    width: 800px;
+}
+
+.container h2 {
+    margin-top: 16px;
+    background-color: #723d46;
+    color: #f0ffce;
+    padding: 8px;
+}
+
+#artists {
+    align-items: center;
+}
+
+#artists-men-coltrane,
+#artists-men-baker,
+#artists-men-monk,
+#artists-women-franklin,
+#artists-women-simone,
+#artists-women-london {
+    max-width: 240px;
+    margin: 16px;
+}
+
+#artists-men-coltrane p,
+#artists-men-baker p,
+#artists-men-monk p,
+#artists-women-franklin p,
+#artists-women-simone p,
+#artists-women-london p {
+    font-size: 12px;
+    text-align: justify;
+}
+
+.more-content {
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: #508991;
+    font-size: 14px;
+    padding: 2px;
+}
+
+#jazz-history-text p,
+#about-text p {
+    max-width: 1000px;
+    margin: 8px 0;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #723d46;
+    color: #f0ffce;
+    border: none;
+}
+
+form button:hover {
+    background-color: #a0606a;
+    cursor: pointer;
+}
+
+input:focus,
+textarea:focus {
+    outline-color: #723d46;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #723d46;
+    color: #f0ffce;
+    padding: 16px 0;
+}
